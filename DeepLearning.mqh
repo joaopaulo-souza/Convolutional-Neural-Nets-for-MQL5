@@ -29,11 +29,6 @@ public:
    // Sum Convolutional Layer
    class SumConvLayer;
 
-   //--------------------------------
-   //Long Short-Term Memory Layer
-   class LSTMLayer;
-   // Bidirectional LSTM layer
-   class BiLSTMLayer;
    
    
    //Methods
@@ -489,6 +484,7 @@ return D;
 
 #include <LossLayer.mqh>
 #include <MetricsLayer.mqh>
+#include <SoftmaxLayer.mqh>
 
 #include <DenseLayer.mqh>
 #include <ActivationLayer.mqh>
